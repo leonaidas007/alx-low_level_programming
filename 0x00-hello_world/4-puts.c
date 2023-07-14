@@ -1,10 +1,11 @@
 #include <stdio.h>
-/**
-  *main - entry point of program
-  *return - return 0. markds the end of the program
-*/
+/*program entry point*/
 int main(void)
 {
+	/**
+	  *puts - program begins
+	  *return - program ends by returning 0
+	*/
 	puts("\"Programming is like building a multilingual puzzle");
-	return (0);/*returns 0. program ends*/
+	return (0);
 }
