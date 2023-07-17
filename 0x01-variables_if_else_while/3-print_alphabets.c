@@ -9,15 +9,16 @@ int main(void)
 	int s = 97;
 	int b = 65;
 
+	while (s <= 122)
+	{
+		putchar(s);
+		s++;
+	}
 	while (b <= 90)
 	{
-		if (s <= 122)
-		{
-			putchar(s);
-			s++;
-		}
 		putchar(b);
 		b++;
 	}
+	putchar('\n');
 	return (0);
 }
