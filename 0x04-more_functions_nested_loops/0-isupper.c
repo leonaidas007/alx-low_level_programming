@@ -1,15 +1,7 @@
 #include "main.h"
 /**
-  *main - Begins the program
-  *Return: Ends program and returns 0
-*/
-/*int main(void)
-{
-	int _isupper(int c);
-	return (0);
-}*/
-/**
   *_isupper()- Checks for Uppercase
+  *@c - int to be checked
   *Return: returns 1 if in upperase, returns 0 if in lowercase
 */
 int _isupper(int c)
