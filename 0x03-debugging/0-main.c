@@ -1,18 +1,15 @@
 #include "main.h"
 #include "../0x01-variables_if_else_while/0-positive_or_negative.c"
 /**
-  *main - checks if number is positive or negative
-  *Return : returns 0 and ends program
-*/
-int main(int s)
+  * main - tests function that prints if integer is positive or negative
+  * Return: 0
+  */
+
+int main(void)
 {
-	if (positive_or_negative(s) > 0)
-	{
-		printf("%d is positive", s);
-	}
-	else if (positive_or_negative(s) < 0)
-	{
-		printf("%d is negative", s);
-	}
-	return (0);
+	        int i;
+
+		i = 98;
+		positive_or_negative(i);
+		return (0);
 }
