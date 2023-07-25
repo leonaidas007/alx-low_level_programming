@@ -1,18 +1,17 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _puts - starts the program
+ * print_rev - rpogram prints strings in reverse
  * @str : pass the character
  *returns : returns nothing
 */
-void _puts(char *str)
+void print_rev(char *str)
 {
-	int len;
+	int len = _strlen(char *str);
 
-	for (len = 0; len != '\0'; len--)
+	if (*str == '\0')
 	{
-		_putchar(*str[len]);
+		_putchar(*str[--len]);
 	}
-	_putchar('\n');
 }
 
