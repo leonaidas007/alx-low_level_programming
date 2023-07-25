@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 #include <stdio.h>
 /**
  * print_rev - rpogram prints strings in reverse
@@ -8,10 +8,15 @@ nclude "main.h"
 void print_rev(char *str)
 {
 	int len;
+	int i;
 
 	len = _strlen(char *str);
-
-	_putchar(*str[--len]);
+	s--;
+	for (i = len; i > 0; i--)
+	{
+		_putchar(*str);
+		s--;
+	}
 	_putchar('\n');
 }
 
