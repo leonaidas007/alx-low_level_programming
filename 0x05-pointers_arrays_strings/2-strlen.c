@@ -3,7 +3,7 @@
 /**
   * _strlen - Program begins
   * @s: character to check length
-  * return: returns length
+  * return: returns length of type int
 */
 int _strlen(char *s)
 {
