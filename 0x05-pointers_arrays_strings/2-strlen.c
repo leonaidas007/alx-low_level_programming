@@ -1,5 +1,10 @@
 #include "main.h"
 #include <stdio.h>
+/**
+  *_strlen - Program begins
+  * @s : character to check length
+  * return : returns length
+*/
 int _strlen(char *s)
 {
 	int length = 0 ;
